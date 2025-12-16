@@ -577,100 +577,162 @@ body {
 
 /* Experience Section */
 .experience-section {
-    background: rgba(10, 10, 10, 0.5);
+    background: rgba(10, 10, 10, 0.7);
     backdrop-filter: blur(10px);
+    padding: 5rem 1rem;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.title-underline {
+    width: 6rem;
+    height: 3px;
+    background: #06b6d4;
+    margin: 0.5rem auto 3rem auto;
+    border-radius: 2px;
 }
 
 .timeline {
-    max-width: 42rem;
-    margin: 2rem auto 0;
     position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
 
-.timeline-line {
+.timeline::before {
+    content: '';
     position: absolute;
     left: 50%;
     top: 0;
-    bottom: 0;
-    width: 2px;
-    background: rgba(75, 85, 99, 0.5);
+    width: 4px;
+    height: 100%;
+    background: #06b6d4;
     transform: translateX(-50%);
+    border-radius: 2px;
 }
 
 .timeline-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 3rem;
     position: relative;
+    width: 50%;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
     opacity: 0;
     transform: translateY(50px);
-    animation: slideInUp 0.5s ease-out forwards;
+    animation: slideUp 0.6s forwards;
 }
 
-.timeline-item:nth-child(odd) { animation-delay: 0.2s; }
-.timeline-item:nth-child(even) { animation-delay: 0.4s; }
-
-.timeline-date {
-    width: 45%;
+.timeline-item:nth-child(odd) {
+    left:5px;
     text-align: right;
-    padding-right: 2rem;
-    color: #9ca3af;
-    font-size: 0.875rem;
+    animation-delay: 0.2s;
 }
 
-.timeline-item:nth-child(even) .timeline-date {
-    order: 3;
+.timeline-item:nth-child(even) {
+    left:49.5%;
     text-align: left;
-    padding-left: 2rem;
-    padding-right: 0;
+    animation-delay: 0.4s;
 }
 
-.timeline-dot {
-    width: 1rem;
-    height: 1rem;
-    background: #06b6d4;
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 1.5rem;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    background: #06b6d4;
     border: 4px solid rgba(31, 41, 55, 0.8);
-    z-index: 10;
-    flex-shrink: 0;
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd)::before {
+    right: -10px;
+}
+
+.timeline-item:nth-child(even)::before {
+    left: -10px;
 }
 
 .timeline-content {
-    width: 45%;
-    padding-left: 2rem;
-    background: rgba(17, 24, 39, 0.5);
+    background: rgba(17, 24, 39, 0.6);
     border: 1px solid rgba(75, 85, 99, 0.3);
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     padding: 1.5rem;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.timeline-item:nth-child(even) .timeline-content {
-    order: 1;
-    padding-right: 2rem;
-    padding-left: 1.5rem;
-    text-align: right;
+.timeline-content:hover {
+    background: rgba(39, 39, 42, 0.85);
+    transform: translateY(-3px);
 }
 
 .timeline-content h3 {
-    font-size: 1.125rem;
-    font-weight: bold;
-    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-bottom: 0.25rem;
+    color: #fff;
 }
 
 .timeline-content h4 {
-    font-size: 0.875rem;
-    font-weight: 600;
+    font-size: 1rem;
     color: #06b6d4;
     margin-bottom: 0.5rem;
 }
 
 .timeline-content p {
-    color: #9ca3af;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
+    color: #d4d4d8;
     line-height: 1.6;
+    font-weight: 300;
 }
 
+.timeline-date {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Animation */
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        text-align: left !important;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-item::before {
+        left: 0 !important;
+        right: auto;
+        top: 1rem;
+    }
+
+    .timeline::before {
+        left: 20px;
+    }
+}
 /* Contact Section */
 .contact-description {
     max-width: 36rem;
@@ -882,4 +944,5 @@ html {
     object-position: 50% 20%;
     display: block;
 }
+
 
