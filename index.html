@@ -1,398 +1,677 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E S Srirag - Python Django Developer</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Python Django Developer portfolio showcasing backend development, Django applications, REST APIs, database-driven projects, and full-stack web development.">
+  <meta name="theme-color" content="#080A0F">
+  <meta property="og:title" content="E S Srirag | Python Django Developer">
+  <meta property="og:description"
+    content="Portfolio of E Srirag — Python Django Developer focused on backend-driven web applications.">
+  <meta property="og:type" content="website">
+  <title>E S Srirag | Python Django Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"E S Srirag",
+    "jobTitle":"Python Django Developer",
+    "url":"https://es-srirag-portfolio.vercel.app/",
+    "sameAs":[
+      "https://github.com/ES-Srirag",
+      "https://linkedin.com/in/e-s-srirag"
+    ],
+    "knowsAbout":["Python","Django","Django REST Framework","REST APIs","Database Design","JavaScript","PostgreSQL","MySQL","Docker","Git"]
+  }
+  </script>
 </head>
+
 <body>
-    <!-- Background Gradient -->
-    <div class="bg-gradient">
-        <div class="gradient-1"></div>
-        <div class="gradient-2"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="E S Srirag home">
+      <span>SRIRAG</span><i>·</i><strong>DEV</strong>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#profile">PROFILE</a><a href="#stack">STACK</a><a href="#workflow">WORKFLOW</a>
+      <a href="#projects">PROJECTS</a><a href="#case-study">CASE STUDY</a>
+      <a href="#background">BACKGROUND</a><a href="#contact">CONTACT</a>
+    </nav>
+    <div class="header-actions">
+      <span class="availability"><b></b> OPEN TO WORK</span>
+      <a class="resume-link" href="/assets/resume.pdf" download>RESUME ↓</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     </div>
+  </header>
 
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="container">
-            <div class="nav-brand">
-                
-            </div>
-            <nav class="navbar">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="social-links">
-                <a href="https://github.com/ES-Srirag" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/e-s-srirag/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="mobile-menu-btn">
-                <i class="fas fa-bars" id="menu-icon"></i>
-            </div>
-        </div>
-    </header>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobile-menu">
-        <nav class="mobile-nav">
-            <ul class="mobile-nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="mobile-social">
-                <a href="https://github.com/ES-Srirag" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/e-s-srirag/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:essrirag123@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
-        </nav>
+  <div class="mobile-nav" aria-hidden="true">
+    <div class="mobile-nav-inner">
+      <div class="mobile-nav-top"><span>SRIRAG-DEV / NAV</span><button class="menu-close"
+          aria-label="Close navigation">×</button></div>
+      <nav aria-label="Mobile navigation">
+        <a href="#profile"><small>01</small>PROFILE</a><a href="#stack"><small>02</small>STACK</a>
+        <a href="#workflow"><small>03</small>WORKFLOW</a><a href="#projects"><small>04</small>PROJECTS</a>
+        <a href="#case-study"><small>05</small>CASE STUDY</a><a href="#background"><small>06</small>BACKGROUND</a>
+        <a href="#contact"><small>08</small>CONTACT</a>
+      </nav>
     </div>
+  </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-             <!-- Profile Image -->
-    <div class="profile-wrapper">
-        <img src="images/E_S_SRIRAG.jpg" alt="Profile" class="profile-image">
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">SRIRAG-DEV / 2026 <span></span> PYTHON · DJANGO · WEB APPLICATIONS</p>
+        <h1 class="hero-title" id="heroTitle">
+          <span>SRIRAG</span>
+        </h1>
+
+
+        <p class="hero-role reveal">PYTHON DJANGO DEVELOPER</p>
+        <p class="hero-description reveal">I build backend-driven web applications with Python and Django — from
+          database design and authentication to REST APIs, payments, and deployment. Interested in turning practical
+          ideas into reliable software.</p>
+        <div class="hero-actions reveal in-view" style="transition-delay: 165ms;">
+          <a class="button button-primary" href="#projects">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="m13 6 6 6-6 6"></path>
+            </svg>
+            VIEW PROJECTS
+          </a>
+
+          <a class="button button-ghost" href="https://github.com/ES-Srirag" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 .5C5.6.5.7 5.4.7 11.7c0 4.9 3.1 9 7.5 10.4.5.1.7-.2.7-.5v-1.9c-3 .6-3.7-1.3-3.7-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.4-.3-5-1.2-5-5.3 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.3 0c2-1.4 2.9-1.1 2.9-1.1.6 1.4.2 2.5.1 2.8.7.8 1.1 1.7 1.1 2.9 0 4.1-2.6 5-5 5.3.4.3.8 1 .8 2.1v3c0 .3.2.6.8.5 4.3-1.4 7.4-5.5 7.4-10.4C23.3 5.4 18.4.5 12 .5Z">
+              </path>
+            </svg>
+            GITHUB <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Django project onboarding and development workflow">
+        <div class="visual-label">PROJECT WORKFLOW <span>01—05</span></div>
+
+        <div class="flow">
+
+          <div class="flow-node active">
+            <span>01</span>
+            <strong>UNDERSTAND</strong>
+            <small>requirements / tasks</small>
+          </div>
+
+          <div class="flow-line"></div>
+
+          <div class="flow-node">
+            <span>02</span>
+            <strong>SETUP</strong>
+            <small>env / dependencies</small>
+          </div>
+
+          <div class="flow-line"></div>
+
+          <div class="flow-node highlighted">
+            <span>03</span>
+            <strong>EXPLORE CODE</strong>
+            <small>urls → views → models</small>
+          </div>
+
+          <div class="flow-split">
+            <div><span>DJANGO</span></div>
+            <div><span>PYTHON</span></div>
+            <div><span>DATABASE</span></div>
+          </div>
+
+          <div class="flow-line"></div>
+
+          <div class="flow-node">
+            <span>04</span>
+            <strong>IMPLEMENT</strong>
+            <small>feature / fix</small>
+          </div>
+
+          <div class="flow-line"></div>
+
+          <div class="flow-node">
+            <span>05</span>
+            <strong>TEST &amp; DELIVER</strong>
+            <small>verify / git / PR</small>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section content-section" id="profile">
+      <div class="section-head"><span>01 / PROFILE</span><span>DEVELOPER OVERVIEW</span></div>
+      <div class="section-grid profile-grid">
+        <div class="headline-wrap">
+          <h2>Building applications,<br>from <em>logic</em> to deployment.</h2>
+        </div>
+        <div class="body-copy">
+          <p>I'm E S Srirag, a BCA graduate focused on Python and Django development. I enjoy building web applications
+            where backend logic, databases, and user-facing functionality come together into a complete product.</p>
+          <p>My hands-on work includes developing Django applications with authentication and role-based access,
+            database-driven features, REST APIs, payment integration, and AI-assisted functionality. I focus on
+            understanding how individual components connect rather than treating development as isolated frontend pages
+            or backend scripts.</p>
+          <p>I'm currently looking to begin my career as a Python Django Developer, where I can strengthen my backend
+            engineering skills, contribute to real-world applications, and grow through practical development
+            challenges.</p>
+        </div>
+      </div>
+      <div class="facts-panel">
+        <div class="fact"><small>FOCUS</small><strong>Python Backend · Django Applications</strong></div>
+        <div class="fact"><small>CORE</small><strong>APIs · Authentication · Database Design</strong></div>
+        <div class="fact"><small>PROJECT WORK</small><strong>AI-Assisted E-commerce Platform</strong></div>
+        <div class="fact"><small>EDUCATION</small><strong>Bachelor of Computer Applications</strong></div>
+        <div class="fact"><small>BASED</small><strong>Thrissur, Kerala, India</strong></div>
+        <div class="fact"><small>STATUS</small><strong>Open to Junior Developer Opportunities</strong></div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="stack">
+      <div class="section-head"><span>02 / TECHNICAL STACK</span><span>TECHNOLOGIES USED</span></div>
+      <div class="intro-row">
+        <h2>What I build with.</h2>
+        <p>Technologies and development practices I've used in hands-on projects, organized around how a web application
+          is actually built.</p>
+      </div>
+      <div class="capability-matrix">
+        <div class="cap-col"><small>01 / BACKEND</small><button data-skill="Python">Python</button><button
+            data-skill="Django">Django</button><button data-skill="Django ORM">Django ORM</button><button
+            data-skill="Django REST Framework">Django REST Framework</button><button
+            data-skill="Authentication">Authentication</button><button data-skill="Role-Based Access">Role-Based
+            Access</button><button data-skill="Session Management">Session Management</button><button
+            data-skill="CSRF Protection">CSRF Protection</button><button data-skill="REST APIs">REST
+            APIs</button><button data-skill="Business Logic">Business Logic</button></div>
+        <div class="cap-col"><small>02 / DATABASE</small><button data-skill="PostgreSQL">PostgreSQL</button><button
+            data-skill="MySQL">MySQL</button><button data-skill="SQLite">SQLite</button><button
+            data-skill="Database Schema Design">Database Schema Design</button><button
+            data-skill="Relationships">Relationships</button><button data-skill="Queries">Queries</button><button
+            data-skill="Migrations">Migrations</button><button data-skill="Data Validation">Data Validation</button>
+        </div>
+        <div class="cap-col"><small>03 / WEB INTERFACE</small><button data-skill="HTML5">HTML5</button><button
+            data-skill="CSS3">CSS3</button><button data-skill="JavaScript">JavaScript</button><button
+            data-skill="Bootstrap">Bootstrap</button><button data-skill="Responsive Design">Responsive
+            Design</button><button data-skill="Django Templates">Django Templates</button><button
+            data-skill="DOM Interaction">DOM Interaction</button><button data-skill="Form Validation">Form
+            Validation</button></div>
+        <div class="cap-col"><small>04 / INTEGRATION</small><button data-skill="REST APIs">REST APIs</button><button
+            data-skill="JSON">JSON</button><button data-skill="API Consumption">API Consumption</button><button
+            data-skill="Payment Integration">Payment Integration</button><button
+            data-skill="Razorpay">Razorpay</button><button data-skill="Request / Response">Request /
+            Response</button><button data-skill="Third-Party Services">Third-Party Services</button></div>
+        <div class="cap-col"><small>05 / DEVELOPMENT</small><button data-skill="Git">Git</button><button
+            data-skill="GitHub">GitHub</button><button data-skill="Linux">Linux</button><button data-skill="VS Code">VS
+            Code</button><button data-skill="Virtual Environments">Virtual Environments</button><button
+            data-skill="Debugging">Debugging</button><button data-skill="Environment Variables">Environment
+            Variables</button><button data-skill="Deployment Basics">Deployment Basics</button></div>
+        <div class="cap-col in-progress"><small>06 / CURRENTLY DEVELOPING</small><button
+            data-skill="Docker">Docker</button><button data-skill="Advanced Django">Advanced Django</button><button
+            data-skill="API Design">API Design</button><button data-skill="PostgreSQL">PostgreSQL</button><button
+            data-skill="Backend Architecture">Backend Architecture</button><button data-skill="Testing">Testing</button>
+        </div>
+      </div>
+      <div class="skill-detail" aria-live="polite"><span>SELECT A CAPABILITY</span><strong>Choose a technology or
+          practice above.</strong>
+        <p>The panel will explain how it fits into application development.</p>
+      </div>
+    </section>
+
+    <section class="section content-section" id="workflow">
+      <div class="section-head">
+        <span>03 / DEVELOPMENT FLOW</span>
+        <span>HOW I APPROACH PROJECTS</span>
+      </div>
+
+      <div class="intro-row">
+        <h2>From idea<br>to working software.</h2>
+        <p>I break a project into the same connected layers that make the application understandable: requirements,
+          data, logic, integration, and refinement.</p>
+      </div>
+
+      <div class="workflow">
+        <article class="phase">
+          <div class="phase-number" style="font-size: 3rem;">01</div>
+          <div>
+            <small>PLAN</small>
+            <h3>Understand before building.</h3>
+            <p>Understand the problem, define the core features, identify users, and map the application's data
+              requirements.</p>
+          </div>
+        </article>
+
+        <article class="phase">
+          <div class="phase-number" style="font-size: 3rem;">02</div>
+          <div>
+            <small>BUILD</small>
+            <h3>Make the backend work.</h3>
+            <p>Design the models and backend logic, then implement application features using Django's request-response
+              architecture.</p>
+          </div>
+        </article>
+
+        <article class="phase">
+          <div class="phase-number" style="font-size: 3rem;">03</div>
+          <div>
+            <small>CONNECT</small>
+            <h3>Join the layers.</h3>
+            <p>Integrate templates, APIs, authentication, payments, and database functionality into a complete user
+              flow.</p>
+          </div>
+        </article>
+
+        <article class="phase">
+          <div class="phase-number" style="font-size: 3rem;">04</div>
+          <div>
+            <small>REFINE</small>
+            <h3>Trace and improve.</h3>
+            <p>Test application flows, debug issues, improve usability, and prepare the project for deployment.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section content-section project-section" id="projects">
+      <div class="section-head"><span>04 / PROJECTS</span><span>PRIMARY PROJECT</span></div>
+      <div class="project-top">
+        <div>
+          <p class="project-kicker">AI-ASSISTED GROCERY PLATFORM</p>
+          <h2>GREEN<span>BASKET</span></h2>
+        </div>
+        <div class="project-description">
+          <p>A full-stack Django-based grocery shopping platform designed around product discovery, user management,
+            personalized recommendations, and online purchasing workflows.</p>
+          <p>The project combines traditional e-commerce functionality with AI-assisted features such as intelligent
+            product recommendations and a recipe assistant.</p>
+        </div>
+      </div>
+      <div class="tech-chips"><span>Python</span><span>Django</span><span>JavaScript</span><span>REST
+          APIs</span><span>Database</span><span>Razorpay</span><span>BERT</span><span>Cosine Similarity</span></div>
+      <div class="architecture">
+        <div class="arch-label">APPLICATION ARCHITECTURE <span>CLICK NODES</span></div>
+        <div class="arch-row">
+          <button class="arch-node" data-arch="CLIENT"><small>01</small><strong>CLIENT</strong><span>templates /
+              JS</span></button>
+          <i class="connector"></i>
+          <button class="arch-node main" data-arch="DJANGO APPLICATION"><small>02</small><strong>DJANGO
+              APPLICATION</strong><span>routing / views / logic</span></button>
+          <i class="connector"></i>
+          <button class="arch-node" data-arch="DATA + SERVICES"><small>03</small><strong>DATA +
+              SERVICES</strong><span>database / external APIs</span></button>
+        </div>
+        <div class="arch-branches">
+          <button data-arch="Authentication">AUTHENTICATION</button><button data-arch="Product Catalog">PRODUCT
+            CATALOG</button><button data-arch="Cart & Orders">CART & ORDERS</button>
+          <button data-arch="Recommendation Engine">RECOMMENDATION ENGINE</button><button
+            data-arch="Payment Integration">PAYMENT INTEGRATION</button><button data-arch="Recipe Assistant">RECIPE
+            ASSISTANT</button>
+        </div>
+        <div class="arch-detail"><small>SELECT MODULE</small><strong>Explore the application's moving parts.</strong>
+          <p>Click an architecture node to see its role.</p>
+        </div>
+      </div>
+      <div class="project-links">
+        <a class="button button-ghost" href="https://github.com/ES-Srirag/Greenbasket_AI_Grocery" target="_blank"
+          rel="noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 .5C5.6.5.7 5.4.7 11.7c0 4.9 3.1 9 7.5 10.4.5.1.7-.2.7-.5v-1.9c-3 .6-3.7-1.3-3.7-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.4-.3-5-1.2-5-5.3 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.3 0c2-1.4 2.9-1.1 2.9-1.1.6 1.4.2 2.5.1 2.8.7.8 1.1 1.7 1.1 2.9 0 4.1-2.6 5-5 5.3.4.3.8 1 .8 2.1v3c0 .3.2.6.8.5 4.3-1.4 7.4-5.5 7.4-10.4C23.3 5.4 18.4.5 12 .5Z">
+            </path>
+          </svg>
+          GITHUB <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section content-section project-section" id="electromart">
+      <div class="section-head"><span>ECOMMERCE PLATFORM</span></div>
+
+      <div class="project-top">
+        <div>
+          <p class="project-kicker">DJANGO E-COMMERCE PLATFORM</p>
+          <h2>ELECTRO<span>MART</span></h2>
+        </div>
+
+        <div class="project-description">
+          <p>A Django-based e-commerce web application designed around product browsing, user authentication, cart
+            management, checkout, and order workflows.</p>
+          <p>The project uses MySQL for product and order management and combines Django backend functionality with a
+            responsive HTML, CSS, and JavaScript interface.</p>
+        </div>
+      </div>
+
+      <div class="tech-chips">
+        <span>Python</span>
+        <span>Django</span>
+        <span>MySQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Authentication</span>
+        <span>Checkout</span>
+      </div>
+
+      <div class="architecture">
+        <div class="arch-label">APPLICATION ARCHITECTURE <span>CLICK NODES</span></div>
+
+        <div class="arch-row">
+          <button class="arch-node" data-arch="ELECTROMART CLIENT">
+            <small>01</small>
+            <strong>CLIENT</strong>
+            <span>templates / JS</span>
+          </button>
+
+          <i class="connector"></i>
+
+          <button class="arch-node main" data-arch="ELECTROMART DJANGO">
+            <small>02</small>
+            <strong>DJANGO APPLICATION</strong>
+            <span>routing / views / logic</span>
+          </button>
+
+          <i class="connector"></i>
+
+          <button class="arch-node" data-arch="ELECTROMART DATABASE">
+            <small>03</small>
+            <strong>MYSQL DATABASE</strong>
+            <span>products / orders / users</span>
+          </button>
+        </div>
+
+        <div class="arch-branches">
+          <button data-arch="ElectroMart Authentication">AUTHENTICATION</button>
+          <button data-arch="ElectroMart Product Catalog">PRODUCT CATALOG</button>
+          <button data-arch="ElectroMart Cart">CART MANAGEMENT</button>
+          <button data-arch="ElectroMart Checkout">CHECKOUT</button>
+          <button data-arch="ElectroMart Orders">ORDER MANAGEMENT</button>
+          <button data-arch="ElectroMart Database">MYSQL DATABASE</button>
+        </div>
+
+        <div class="arch-detail">
+          <small>SELECT MODULE</small>
+          <strong>Explore the application's moving parts.</strong>
+          <p>Click an architecture node to see its role.</p>
+        </div>
+      </div>
+
+      <div class="project-links">
+        <a class="button button-ghost" href="https://github.com/ES-Srirag/ElectroMart" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 .5C5.6.5.7 5.4.7 11.7c0 4.9 3.1 9 7.5 10.4.5.1.7-.2.7-.5v-1.9c-3 .6-3.7-1.3-3.7-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.4-.3-5-1.2-5-5.3 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.3 0c2-1.4 2.9-1.1 2.9-1.1.6 1.4.2 2.5.1 2.8.7.8 1.1 1.7 1.1 2.9 0 4.1-2.6 5-5 5.3.4.3.8 1 .8 2.1v3c0 .3.2.6.8.5 4.3-1.4 7.4-5.5 7.4-10.4C23.3 5.4 18.4.5 12 .5Z">
+            </path>
+          </svg>
+          GITHUB <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section content-section project-section" id="filmwise">
+      <div class="section-head"><span>MOVIE RECOMMENDATION</span></div>
+
+      <div class="project-top">
+        <div>
+          <p class="project-kicker">CONTENT-BASED MOVIE RECOMMENDATION</p>
+          <h2>FILM<span>WISE</span></h2>
+        </div>
+
+        <div class="project-description">
+          <p>A content-based movie recommendation system built with Python and Cosine Similarity to recommend films
+            based on their content and metadata.</p>
+          <p>The project processes movie metadata using Pandas and Scikit-learn and provides a Django template-based
+            interface for exploring movie recommendations.</p>
+        </div>
+      </div>
+
+      <div class="tech-chips">
+        <span>Python</span>
+        <span>Django</span>
+        <span>Pandas</span>
+        <span>Scikit-learn</span>
+        <span>Cosine Similarity</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Recommendation System</span>
+      </div>
+
+      <div class="architecture">
+        <div class="arch-label">APPLICATION ARCHITECTURE <span>CLICK NODES</span></div>
+
+        <div class="arch-row">
+          <button class="arch-node" data-arch="FILMWISE CLIENT">
+            <small>01</small>
+            <strong>CLIENT</strong>
+            <span>templates / CSS</span>
+          </button>
+
+          <i class="connector"></i>
+
+          <button class="arch-node main" data-arch="FILMWISE ENGINE">
+            <small>02</small>
+            <strong>RECOMMENDATION ENGINE</strong>
+            <span>Python / similarity logic</span>
+          </button>
+
+          <i class="connector"></i>
+
+          <button class="arch-node" data-arch="FILMWISE DATA">
+            <small>03</small>
+            <strong>MOVIE DATA</strong>
+            <span>metadata / processed data</span>
+          </button>
+        </div>
+
+        <div class="arch-branches">
+          <button data-arch="FilmWise Movie Data">MOVIE METADATA</button>
+          <button data-arch="FilmWise Pandas">DATA PROCESSING</button>
+          <button data-arch="FilmWise Scikit-learn">SCIKIT-LEARN</button>
+          <button data-arch="FilmWise Cosine Similarity">COSINE SIMILARITY</button>
+          <button data-arch="FilmWise Recommendation">RECOMMENDATION ENGINE</button>
+          <button data-arch="FilmWise Django">DJANGO TEMPLATES</button>
+        </div>
+
+        <div class="arch-detail">
+          <small>SELECT MODULE</small>
+          <strong>Explore the application's moving parts.</strong>
+          <p>Click an architecture node to see its role.</p>
+        </div>
+      </div>
+
+      <div class="project-links">
+        <a class="button button-ghost" href="https://github.com/ES-Srirag/Filmwise" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 .5C5.6.5.7 5.4.7 11.7c0 4.9 3.1 9 7.5 10.4.5.1.7-.2.7-.5v-1.9c-3 .6-3.7-1.3-3.7-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.4-.3-5-1.2-5-5.3 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.3 0c2-1.4 2.9-1.1 2.9-1.1.6 1.4.2 2.5.1 2.8.7.8 1.1 1.7 1.1 2.9 0 4.1-2.6 5-5 5.3.4.3.8 1 .8 2.1v3c0 .3.2.6.8.5 4.3-1.4 7.4-5.5 7.4-10.4C23.3 5.4 18.4.5 12 .5Z">
+            </path>
+          </svg>
+          GITHUB <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section content-section" id="case-study">
+      <div class="section-head"><span>05 / CASE STUDY</span><span>UNDER THE HOOD</span></div>
+      <div class="intro-row">
+        <h2>One project,<br>under the hood.</h2>
+        <p>Explore the technical pieces of Greenbasket without reducing the project to a list of buzzwords.</p>
+      </div>
+      <div class="case-grid">
+        <button class="case-card"
+          data-case="AUTHENTICATION"><span>01</span><small>AUTHENTICATION</small><strong>Identity & access</strong>
+          <p>User registration, login, session handling, and role-based access control.</p><b>OPEN DETAIL ↗</b>
+        </button>
+        <button class="case-card" data-case="PRODUCT DISCOVERY"><span>02</span><small>PRODUCT
+            DISCOVERY</small><strong>Structured catalog</strong>
+          <p>Database-driven product browsing with structured categories and product information.</p><b>OPEN DETAIL
+            ↗</b>
+        </button>
+        <button class="case-card" data-case="AI RECOMMENDATIONS"><span>03</span><small>AI
+            RECOMMENDATIONS</small><strong>Similarity-based discovery</strong>
+          <p>Similarity-based recommendations designed to help users discover relevant products.</p><b>OPEN DETAIL ↗</b>
+        </button>
+        <button class="case-card" data-case="PAYMENT FLOW"><span>04</span><small>PAYMENT FLOW</small><strong>Checkout
+            integration</strong>
+          <p>Checkout functionality integrated with an online payment workflow.</p><b>OPEN DETAIL ↗</b>
+        </button>
+        <button class="case-card" data-case="RECIPE ASSISTANT"><span>05</span><small>RECIPE
+            ASSISTANT</small><strong>AI-assisted utility</strong>
+          <p>AI-assisted functionality designed to provide recipe-related suggestions.</p><b>OPEN DETAIL ↗</b>
+        </button>
+        <button class="case-card" data-case="DATABASE DESIGN"><span>06</span><small>DATABASE
+            DESIGN</small><strong>Relational application data</strong>
+          <p>Relational data models connecting users, products, carts, orders, and application workflows.</p><b>OPEN
+            DETAIL ↗</b>
+        </button>
+      </div>
+    </section>
+
+    <section class="section content-section" id="background">
+      <div class="section-head"> <span>06 / BACKGROUND</span> <span>EDUCATION & EXPERIENCE</span> </div>
+      <div class="intro-row">
+        <h2>Built through<br>learning & experience.</h2>
+        <p> A concise record of the academic foundation, professional experience, and practical development work that
+          shaped my technical skills. </p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="time">2020 — 2022</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div> <small>COMMERCE WITH INFORMATICS PRACTICES</small>
+            <h3>Bharatiya Vidya Bhavan’s S Ramakrishnan Memorial Public School</h3>
+            <p> Akamala, Wadakkanchery, Thrissur. Completed higher secondary education in Commerce with Informatics
+              Practices, developing an early foundation in business, computer applications, and technology. </p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">2022 — 2025</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div> <small>BACHELOR OF COMPUTER APPLICATIONS · BCA</small>
+            <h3>IHRD College of Applied Science, Pazhayannur</h3>
+            <p> Thrissur · University of Calicut. Built a foundation in programming, databases, software development,
+              web technologies, and computer science fundamentals through academic and practical projects. </p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">2025 — 2025</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div> <small>PYTHON & DJANGO DEVELOPMENT · INTERNSHIP</small>
+            <h3>Grapesgenix Technical Solutions Pvt. Ltd.</h3>
+            <p> Software training and internship institute · Thrissur. Completed a six-month Python and Django
+              development internship focused on backend development, databases, web application development, REST APIs,
+              and building practical software projects. </p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="time">PROFESSIONAL EXPERIENCE</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div> <small>CUSTOMER SUPPORT ANALYST TRAINEE</small>
+            <h3>Eqsoft Business Solutions Pvt. Ltd.</h3>
+            <p> Supported financial year-end processes, including year creation and service extension within the
+              ERP/software system. Used SQL to extract and organize customer data for internal reporting and tracking.
+              Updated and maintained customer information in Excel and database records, ensuring data remained
+              accurate, current, and properly organized. </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="credentials">
+      <div class="section-head"><span>07 / CREDENTIALS</span><span>BACKGROUND & LEARNING</span></div>
+      <div class="credential-layout">
+        <div class="credential-primary"><small>EDUCATION</small>
+          <h2>Bachelor of<br>Computer Applications</h2>
+          <p>University of Calicut</p><span>2022 — 2025</span>
+        </div>
+        <div class="learning"><small>CURRENT LEARNING <em>IN PROGRESS</em></small>
+          <div>Docker <span>01</span></div>
+          <div>Advanced Django <span>02</span></div>
+          <div>API Design <span>03</span></div>
+          <div>Backend Architecture <span>04</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-head"><span>08 / CONTACT</span><span>OPEN TO OPPORTUNITIES</span></div>
+      <div class="contact-heading">
+        <p class="eyebrow">OPEN TO JUNIOR SOFTWARE & CYBERSECURITY OPPORTUNITIES</p>
+        <h2>Let's build<br>something <em>meaningful.</em></h2>
+        <p>I'm currently seeking opportunities where I can apply my Python, Django, SQL, Linux, and cybersecurity
+          fundamentals while continuing to grow as a software and security professional.</p>
+      </div>
+      <div class="contact-grid"> <a href="mailto:essrirag123@gmail.com"> <small>EMAIL</small> <strong><svg class="ic"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="m3 7 9 6 9-6" />
+            </svg>essrirag123@gmail.com</strong> <span>↗</span> </a> <a href="https://github.com/ES-Srirag"
+          target="_blank" rel="noreferrer"> <small>GITHUB</small> <strong><svg class="ic" viewBox="0 0 24 24"
+              fill="currentColor">
+              <path
+                d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.85 10.9.58.1.79-.25.79-.56v-2.05c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.28-1.7-1.28-1.7-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+            </svg>github.com/ES-Srirag</strong> <span>↗</span> </a> <a href="https://linkedin.com/in/e-s-srirag"
+          target="_blank" rel="noreferrer"> <small>LINKEDIN</small> <strong><svg class="ic" viewBox="0 0 24 24"
+              fill="currentColor">
+              <path
+                d="M5.2 3.2a2.1 2.1 0 1 1 0 4.2 2.1 2.1 0 0 1 0-4.2ZM3.4 9h3.6v11.6H3.4V9Zm5.8 0h3.4v1.6h.05c.47-.89 1.63-1.83 3.35-1.83 3.58 0 4.24 2.36 4.24 5.43v6.4h-3.6v-5.68c0-1.35-.03-3.08-1.88-3.08-1.88 0-2.17 1.47-2.17 2.98v5.78H9.2V9Z" />
+            </svg>linkedin.com/in/e-s-srirag</strong> <span>↗</span> </a>
+        <div> <small>LOCATION</small> <strong><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>Thrissur, Kerala, India</strong> <span>•</span> </div>
+      </div>
+      <footer><span>© 2026 E S Srirag</span><span>Python Django Developer</span><span id="utc-clock">TIME ·
+          --:--:--</span></footer>
+    </section>
+  </main>
+
+  <dialog class="case-dialog" id="case-dialog">
+    <div class="dialog-inner"><button class="dialog-close" aria-label="Close case study">×</button>
+      <div class="dialog-meta"><span>GREENBASKET / CASE STUDY</span><span id="dialog-index">01</span></div>
+      <h2 id="dialog-title">Authentication</h2>
+      <div class="dialog-grid">
+        <div><small>PROBLEM</small>
+          <p id="dialog-problem"></p>
+        </div>
+        <div><small>IMPLEMENTATION</small>
+          <p id="dialog-implementation"></p>
+        </div>
+        <div><small>TECHNOLOGIES</small>
+          <p id="dialog-tech"></p>
+        </div>
+        <div><small>KEY TECHNICAL CONCEPTS</small>
+          <p id="dialog-concepts"></p>
+        </div>
+        <div><small>CHALLENGES</small>
+          <p id="dialog-challenges"></p>
+        </div>
+        <div><small>WHAT I LEARNED</small>
+          <p id="dialog-learned"></p>
+        </div>
+      </div>
     </div>
-            <h1 class="hero-title">E S Srirag</h1>
-            <p class="hero-subtitle">Python Django Developer</p>
-            <a href="#contact" class="cta-btn">Get In Touch</a>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll Down</span>
-            <i class="fas fa-arrow-down"></i>
-        </div>
-    </section>
+  </dialog>
 
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <div class="section-content">
-                <h2 class="section-title">About Me</h2>
-                <div class="title-underline"></div>
-                <div class="about-content">
-                    <p>I'm a Python Django developer who enjoys building web applications that actually work and are easy to use. I focus on creating solid back-end systems and smooth user experiences. I like solving problems and writing clean, maintainable code, and I work well with others to get things done.</p>
-                    <p>I enjoy making web applications that are simple, reliable, and enjoyable for users. I work with Python, Django, HTML, CSS, JavaScript, Bootstrap, and a bit of PHP. What motivates me most is taking an idea and turning it into something real that solves a problem.</p>
-                    <p>Every project is a chance to learn something new and get better at what I do. I like collaborating with people who are as passionate about technology as I am, and I’m always looking to contribute to projects that matter and improve my skills along the way.</p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section services-section">
-        <div class="container">
-            <div class="section-content">
-                <h2 class="section-title">Services</h2>
-                <div class="title-underline"></div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h3>Web Development</h3>
-                        <p>Crafting responsive and dynamic websites from scratch with a focus on performance and user experience.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-server"></i>
-                        </div>
-                        <h3>Backend Development</h3>
-                        <p>Building robust and scalable server-side applications and APIs using Python and Django.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>Mobile App Integration</h3>
-                        <p>Building robust RESTful APIs and back-end services with Django to power cross-platform mobile applications and ensure seamless data synchronization across devices.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Database Design</h3>
-                        <p>Designing and managing efficient, secure, and scalable database schemas for complex applications.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
-        <div class="container">
-            <div class="section-content">
-                <h2 class="section-title">Skills</h2>
-                <div class="title-underline"></div>
-                <div class="skills-grid">
-                    <!-- Backend -->
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                            alt="Python">
-                        <span>Python</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
-                            alt="Django">
-                        <span>Django</span>
-                    </div>
-
-                    <!-- Database -->
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                            alt="PostgreSQL">
-                        <span>PostgreSQL</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
-                            alt="SQLite">
-                        <span>SQLite</span>
-                    </div>
-
-                    <!-- Frontend -->
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            alt="JavaScript">
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                            alt="React">
-                        <span>React</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                            alt="HTML5">
-                        <span>HTML5</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
-                        <span>CSS3</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                            alt="Bootstrap">
-                        <span>Bootstrap</span>
-                    </div>
-
-                    <!-- Tools -->
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                            alt="Docker">
-                        <span>Docker</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-                        <span>Git</span>
-                    </div>
-                    <div class="skill-item">
-                        <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub">
-                        <span>GitHub</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section projects-section">
-    <div class="container">
-        <div class="section-content">
-            <h2 class="section-title">Projects</h2>
-            <div class="title-underline"></div>
-            <div class="projects-grid">
-
-                <!-- AI Grocery Shopping -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/grocery.png" alt="Grocery">
-                        <div class="project-overlay"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Grocery Shopping</h3>
-                        <p>A smart online grocery shopping platform with personalized recommendations, dynamic product listings, and secure user management.</p>
-                        <div class="project-tech">
-                            <span>Django</span>
-                            <span>JavaScript</span>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ES-Srirag/Greenbasket_AI_Grocery" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bookverse -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/Bookverse.jpg" alt="Bookverse">
-                        <div class="project-overlay"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Bookverse</h3>
-                        <p>An online bookstore platform with full cart functionality, secure authentication, and responsive design, similar to ElectroMart.</p>
-                        <div class="project-tech">
-                            <span>Django</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ES-Srirag/Bookverse" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- ElectroMart -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/Electromart.jpg" alt="ElectroMart">
-                        <div class="project-overlay"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3>ElectroMart</h3>
-                        <p>An e-commerce web application with cart, checkout, authentication, and responsive UI for seamless shopping experience.</p>
-                        <div class="project-tech">
-                            <span>Django</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ES-Srirag/ElectroMart" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FilmWise -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/Filmwise.jpg" alt="FilmWise">
-                        <div class="project-overlay"></div>
-                    </div>
-                    <div class="project-content">
-                        <h3>FilmWise</h3>
-                        <p>A content-based movie recommendation system using Python, Cosine Similarity, and Pandas to provide personalized movie suggestions.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Pandas</span>
-                            <span>Scikit-learn</span>
-                            <span>Django</span>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/ES-Srirag/Filmwise" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-       <!-- Experience & Education Section -->
-    <section id="experience" class="section experience-section">
-        <div class="container">
-            <h2 class="section-title"> Education</h2>
-            <div class="title-underline"></div>
-
-            <div class="timeline">
-                <!-- Education -->
-                <div class="timeline-item same-side">
-                    <div class="timeline-date">2022 - 2025</div>
-                    <div class="timeline-content">
-                        <h3>Bachelor of Computer Applications</h3>
-                        <h4>IHRD College of Applied Science Pazhayannur</h4>
-                        <p>Studied computer science fundamentals, programming, databases, and practical application
-                            development projects.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <div class="section-content">
-                <h2 class="section-title">Contact</h2>
-                <div class="title-underline"></div>
-                <p class="contact-description">
-                    I'm currently available for freelance work and open to new opportunities. Feel free to reach out.
-                </p>
-                <div class="contact-info">
-                    <a href="mailto:essrirag123@gmail.com" class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        essrirag123@gmail.com
-                    </a>
-                    <div class="contact-divider">|</div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        Thrissur,Kerala, India
-                    </div>
-                </div>
-                <div class="contact-social">
-                    <a href="https://github.com/ES-Srirag" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/e-s-srirag/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="mailto:essrirag123@gmail.com">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-                <div class="copyright">
-                    &copy; <span id="current-year"></span> E S Srirag. All Rights Reserved.
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
